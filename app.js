@@ -35,21 +35,7 @@ console.log('Today is ' + (new Date().getDay()));
     "Better Appetite"];
     document.getElementById("btn").innerHTML = kandies;
 }
-//carousel starts here
-const arrayCarousel = [
-    "images/chart.png", 
-    "images/image.png",
-  ];
-  
-  counter=0;
-  
-  function setImage(){
-    document.getElementById("carousel-image").src = arrayCarousel [counter];
-    // document.getElementById("carousel-image1").src = arrayCarousel [counter];
-    
-    counter = (counter + 1) % arrayCarousel.length;
-  }
-  setInterval (setImage, 3000);
+/
   
   // puppy calculator
   function calculateDogAge(){
